@@ -5,9 +5,13 @@ from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
 
+
+
 #GLOBAL
 class_data = ""
 folder_path =""
+console = Console()
+table = Table()
 
 def load_file():
     """Loads existing class file"""
@@ -110,10 +114,7 @@ def display_student_result():
 
     for student in class_data["students"]:
         if student["id"] == id:
-
            
-            console = Console()
-            table = Table()
             table.add_column("Subject")
             table.add_column("Max")
             table.add_column("Score")
@@ -188,6 +189,26 @@ def delete_student():
             else:
                 print('Input correct character(y/n)')
 
+def export_data():
+    selection = input("""Select one of the following options
+          [1] Individual result sheet for a specific student → StudentName_Result.txt
+          [2] Full class result table → ClassName_Term_Results.txt
+          [3]CSV export of all student scores → ClassName_Term_Results.csv
+          """ )
+    if selection == '1':
+        id = input('Input the student\'s ID')
+        for student in class_data["students"]:
+            if student["id"] == id:
+                with open(f"{student["name"]}_Results.txt", "w", encoding="utf-8") as file:
+                    file.write(display_student_result())
+
+        print(f"{student["name"]}_Results.txt exported successfully")
+    elif selection == '2':
+        pass
+    elif selection == '3':
+        pass
+    else:
+        print("Select option 1,2 or 3")
 
 
 
@@ -197,7 +218,7 @@ def init_class():
     response = input("Are you loading an existing class(Y) OR setting up a class(N)")
     if response.lower() == 'y':
         load_file()
-        delete_student()
+        console.print(display_student_result())
     elif response.lower()== 'n':
         setup_class()
     else:
