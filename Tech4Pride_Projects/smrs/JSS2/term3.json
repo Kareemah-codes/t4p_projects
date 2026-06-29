@@ -1,0 +1,825 @@
+{
+  "class_name": "JSS 2A",
+  "term": "Third Term 2024/2025",
+  "form_teacher":"Akinyele Ibrahim",
+  "no_students":50,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "max_score": 100,
+      "credit_unit": 1
+    },
+    {
+      "name": "English Language",
+      "max_score": 100,
+      "credit_unit": 1
+    },
+    {
+      "name": "Basic Science",
+      "max_score": 100,
+      "credit_unit": 1
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-0022",
+      "name": "Babatunde Chukwu",
+      "gender": "Male",
+      "dob": "2011-10-08",
+      "scores": {
+        "Mathematics": 35,
+        "English Language": 44,
+        "Basic Science": 42
+      },
+      "total": 121,
+      "average": 40.3,
+      "grade": "E",
+      "rank": 50,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0047",
+      "name": "Ibrahim Ibrahim",
+      "gender": "Male",
+      "dob": "2011-05-03",
+      "scores": {
+        "Mathematics": 64,
+        "English Language": 47,
+        "Basic Science": 83
+      },
+      "total": 194,
+      "average": 64.7,
+      "grade": "B",
+      "rank": 24,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0063",
+      "name": "Ahmed Okonkwo",
+      "gender": "Male",
+      "dob": "2013-12-11",
+      "scores": {
+        "Mathematics": 48,
+        "English Language": 66,
+        "Basic Science": 59
+      },
+      "total": 173,
+      "average": 57.7,
+      "grade": "C",
+      "rank": 38,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0072",
+      "name": "Shade Adebayo",
+      "gender": "Female",
+      "dob": "2012-10-11",
+      "scores": {
+        "Mathematics": 50,
+        "English Language": 73,
+        "Basic Science": 74
+      },
+      "total": 197,
+      "average": 65.7,
+      "grade": "B",
+      "rank": 22,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0078",
+      "name": "Halima Afolabi",
+      "gender": "Female",
+      "dob": "2013-09-04",
+      "scores": {
+        "Mathematics": 70,
+        "English Language": 30,
+        "Basic Science": 50
+      },
+      "total": 123,
+      "average": 41.0,
+      "grade": "E",
+      "rank": 49,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0103",
+      "name": "Tosin Suleiman",
+      "gender": "Female",
+      "dob": "2010-09-07",
+      "scores": {
+        "Mathematics": 68,
+        "English Language": 51,
+        "Basic Science": 79
+      },
+      "total": 198,
+      "average": 66.0,
+      "grade": "B",
+      "rank": 19,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0115",
+      "name": "Femi Okafor",
+      "gender": "Male",
+      "dob": "2012-05-08",
+      "scores": {
+        "Mathematics": 42,
+        "English Language": 65,
+        "Basic Science": 45
+      },
+      "total": 152,
+      "average": 50.7,
+      "grade": "C",
+      "rank": 45,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0136",
+      "name": "Kelechi Egwuatu",
+      "gender": "Male",
+      "dob": "2013-04-26",
+      "scores": {
+        "Mathematics": 95,
+        "English Language": 87,
+        "Basic Science": 59
+      },
+      "total": 241,
+      "average": 80.3,
+      "grade": "A",
+      "rank": 2,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0182",
+      "name": "Suleiman Uche",
+      "gender": "Male",
+      "dob": "2013-01-06",
+      "scores": {
+        "Mathematics": 77,
+        "English Language": 87,
+        "Basic Science": 66
+      },
+      "total": 230,
+      "average": 76.7,
+      "grade": "A",
+      "rank": 8,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0272",
+      "name": "Adeola Nwosu",
+      "gender": "Female",
+      "dob": "2013-04-18",
+      "scores": {
+        "Mathematics": 60,
+        "English Language": 74,
+        "Basic Science": 86
+      },
+      "total": 220,
+      "average": 73.3,
+      "grade": "B",
+      "rank": 11,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0277",
+      "name": "Gbenga Musa",
+      "gender": "Male",
+      "dob": "2011-11-11",
+      "scores": {
+        "Mathematics": 42,
+        "English Language": 64,
+        "Basic Science": 39
+      },
+      "total": 145,
+      "average": 48.3,
+      "grade": "D",
+      "rank": 48,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0316",
+      "name": "Emeka Adeyemi",
+      "gender": "Male",
+      "dob": "2012-01-12",
+      "scores": {
+        "Mathematics": 61,
+        "English Language": 66,
+        "Basic Science": 48
+      },
+      "total": 175,
+      "average": 58.3,
+      "grade": "C",
+      "rank": 36,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0349",
+      "name": "Maryam Okereke",
+      "gender": "Female",
+      "dob": "2010-05-14",
+      "scores": {
+        "Mathematics": 55,
+        "English Language": 93,
+        "Basic Science": 35
+      },
+      "total": 183,
+      "average": 61.0,
+      "grade": "B",
+      "rank": 32,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0383",
+      "name": "Musa Okereke",
+      "gender": "Male",
+      "dob": "2013-09-15",
+      "scores": {
+        "Mathematics": 50,
+        "English Language": 66,
+        "Basic Science": 63
+      },
+      "total": 179,
+      "average": 59.7,
+      "grade": "C",
+      "rank": 33,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0409",
+      "name": "Musa Balogun",
+      "gender": "Male",
+      "dob": "2012-05-28",
+      "scores": {
+        "Mathematics": 43,
+        "English Language": 70,
+        "Basic Science": 79
+      },
+      "total": 192,
+      "average": 64.0,
+      "grade": "B",
+      "rank": 27,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0410",
+      "name": "Ahmed Ogundimu",
+      "gender": "Male",
+      "dob": "2012-01-04",
+      "scores": {
+        "Mathematics": 68,
+        "English Language": 57,
+        "Basic Science": 68
+      },
+      "total": 193,
+      "average": 64.3,
+      "grade": "B",
+      "rank": 26,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0411",
+      "name": "Ramatu Chukwu",
+      "gender": "Female",
+      "dob": "2012-02-07",
+      "scores": {
+        "Mathematics": 75,
+        "English Language": 62,
+        "Basic Science": 98
+      },
+      "total": 235,
+      "average": 78.3,
+      "grade": "A",
+      "rank": 3,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0439",
+      "name": "Usman Suleiman",
+      "gender": "Male",
+      "dob": "2013-06-08",
+      "scores": {
+        "Mathematics": 52,
+        "English Language": 98,
+        "Basic Science": 46
+      },
+      "total": 196,
+      "average": 65.3,
+      "grade": "B",
+      "rank": 23,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0445",
+      "name": "Oluwaseun Okonkwo",
+      "gender": "Male",
+      "dob": "2012-12-26",
+      "scores": {
+        "Mathematics": 75,
+        "English Language": 90,
+        "Basic Science": 49
+      },
+      "total": 214,
+      "average": 71.3,
+      "grade": "B",
+      "rank": 13,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0460",
+      "name": "Ifeoma Egwuatu",
+      "gender": "Female",
+      "dob": "2011-07-06",
+      "scores": {
+        "Mathematics": 70,
+        "English Language": 94,
+        "Basic Science": 66
+      },
+      "total": 230,
+      "average": 76.7,
+      "grade": "A",
+      "rank": 7,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0489",
+      "name": "Oluwaseun Suleiman",
+      "gender": "Male",
+      "dob": "2011-01-17",
+      "scores": {
+        "Mathematics": 45,
+        "English Language": 58,
+        "Basic Science": 43
+      },
+      "total": 146,
+      "average": 48.7,
+      "grade": "D",
+      "rank": 47,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0498",
+      "name": "Ngozi Aliyu",
+      "gender": "Female",
+      "dob": "2010-09-25",
+      "scores": {
+        "Mathematics": 51,
+        "English Language": 51,
+        "Basic Science": 95
+      },
+      "total": 197,
+      "average": 65.7,
+      "grade": "B",
+      "rank": 20,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0520",
+      "name": "Yusuf Okereke",
+      "gender": "Male",
+      "dob": "2011-03-12",
+      "scores": {
+        "Mathematics": 55,
+        "English Language": 35,
+        "Basic Science": 76
+      },
+      "total": 166,
+      "average": 55.3,
+      "grade": "C",
+      "rank": 41,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0574",
+      "name": "Shade Oghenekaro",
+      "gender": "Female",
+      "dob": "2013-10-24",
+      "scores": {
+        "Mathematics": 54,
+        "English Language": 65,
+        "Basic Science": 55
+      },
+      "total": 174,
+      "average": 58.0,
+      "grade": "C",
+      "rank": 37,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0591",
+      "name": "Taiwo Yusuf",
+      "gender": "Male",
+      "dob": "2011-05-02",
+      "scores": {
+        "Mathematics": 90,
+        "English Language": 35,
+        "Basic Science": 60
+      },
+      "total": 185,
+      "average": 61.7,
+      "grade": "B",
+      "rank": 31,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0598",
+      "name": "Bimpe Fashola",
+      "gender": "Female",
+      "dob": "2012-05-07",
+      "scores": {
+        "Mathematics": 75,
+        "English Language": 65,
+        "Basic Science": 68
+      },
+      "total": 208,
+      "average": 69.3,
+      "grade": "B",
+      "rank": 17,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0611",
+      "name": "Taiwo Musa",
+      "gender": "Male",
+      "dob": "2013-09-09",
+      "scores": {
+        "Mathematics": 36,
+        "English Language": 49,
+        "Basic Science": 69
+      },
+      "total": 154,
+      "average": 51.3,
+      "grade": "C",
+      "rank": 44,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0651",
+      "name": "Obinna Nwachukwu",
+      "gender": "Male",
+      "dob": "2012-03-12",
+      "scores": {
+        "Mathematics": 80,
+        "English Language": 61,
+        "Basic Science": 69
+      },
+      "total": 210,
+      "average": 70.0,
+      "grade": "B",
+      "rank": 15,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0670",
+      "name": "Biodun Uche",
+      "gender": "Male",
+      "dob": "2010-11-27",
+      "scores": {
+        "Mathematics": 73,
+        "English Language": 48,
+        "Basic Science": 52
+      },
+      "total": 173,
+      "average": 57.7,
+      "grade": "C",
+      "rank": 40,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0675",
+      "name": "Amara Okonkwo",
+      "gender": "Female",
+      "dob": "2013-06-14",
+      "scores": {
+        "Mathematics": 87,
+        "English Language": 94,
+        "Basic Science": 41
+      },
+      "total": 222,
+      "average": 74.0,
+      "grade": "B",
+      "rank": 10,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0688",
+      "name": "Titi Adeleke",
+      "gender": "Female",
+      "dob": "2012-08-11",
+      "scores": {
+        "Mathematics": 44,
+        "English Language": 36,
+        "Basic Science": 93
+      },
+      "total": 173,
+      "average": 57.7,
+      "grade": "C",
+      "rank": 39,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0692",
+      "name": "Tosin Ibrahim",
+      "gender": "Female",
+      "dob": "2011-07-04",
+      "scores": {
+        "Mathematics": 66,
+        "English Language": 40,
+        "Basic Science": 45
+      },
+      "total": 151,
+      "average": 50.3,
+      "grade": "C",
+      "rank": 46,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0700",
+      "name": "Ibrahim Afolabi",
+      "gender": "Male",
+      "dob": "2010-10-21",
+      "scores": {
+        "Mathematics": 56,
+        "English Language": 66,
+        "Basic Science": 55
+      },
+      "total": 177,
+      "average": 59.0,
+      "grade": "C",
+      "rank": 35,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0735",
+      "name": "Tosin Balogun",
+      "gender": "Female",
+      "dob": "2012-04-22",
+      "scores": {
+        "Mathematics": 68,
+        "English Language": 97,
+        "Basic Science": 67
+      },
+      "total": 232,
+      "average": 77.3,
+      "grade": "A",
+      "rank": 6,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0737",
+      "name": "Usman Yusuf",
+      "gender": "Male",
+      "dob": "2012-09-25",
+      "scores": {
+        "Mathematics": 57,
+        "English Language": 48,
+        "Basic Science": 73
+      },
+      "total": 178,
+      "average": 59.3,
+      "grade": "C",
+      "rank": 34,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0790",
+      "name": "Adaeze Chukwu",
+      "gender": "Female",
+      "dob": "2011-11-09",
+      "scores": {
+        "Mathematics": 55,
+        "English Language": 91,
+        "Basic Science": 89
+      },
+      "total": 235,
+      "average": 78.3,
+      "grade": "A",
+      "rank": 4,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0804",
+      "name": "Rukayat Uche",
+      "gender": "Female",
+      "dob": "2013-05-14",
+      "scores": {
+        "Mathematics": 97,
+        "English Language": 54,
+        "Basic Science": 59
+      },
+      "total": 210,
+      "average": 70.0,
+      "grade": "B",
+      "rank": 16,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0807",
+      "name": "Obinna Nwosu",
+      "gender": "Male",
+      "dob": "2010-07-28",
+      "scores": {
+        "Mathematics": 39,
+        "English Language": 95,
+        "Basic Science": 63
+      },
+      "total": 197,
+      "average": 65.7,
+      "grade": "B",
+      "rank": 21,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0867",
+      "name": "Hamza Afolabi",
+      "gender": "Male",
+      "dob": "2010-02-21",
+      "scores": {
+        "Mathematics": 89,
+        "English Language": 70,
+        "Basic Science": 40
+      },
+      "total": 199,
+      "average": 66.3,
+      "grade": "B",
+      "rank": 18,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0870",
+      "name": "Rukayat Oghenekaro",
+      "gender": "Female",
+      "dob": "2011-03-14",
+      "scores": {
+        "Mathematics": 97,
+        "English Language": 96,
+        "Basic Science": 62
+      },
+      "total": 255,
+      "average": 85.0,
+      "grade": "A",
+      "rank": 1,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0882",
+      "name": "Maryam Adeyemi",
+      "gender": "Female",
+      "dob": "2010-03-21",
+      "scores": {
+        "Mathematics": 55,
+        "English Language": 89,
+        "Basic Science": 43
+      },
+      "total": 187,
+      "average": 62.3,
+      "grade": "B",
+      "rank": 28,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0901",
+      "name": "Safiya Ibrahim",
+      "gender": "Female",
+      "dob": "2011-06-10",
+      "scores": {
+        "Mathematics": 55,
+        "English Language": 91,
+        "Basic Science": 73
+      },
+      "total": 219,
+      "average": 73.0,
+      "grade": "B",
+      "rank": 12,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0912",
+      "name": "Adaora Okonkwo",
+      "gender": "Female",
+      "dob": "2010-12-18",
+      "scores": {
+        "Mathematics": 54,
+        "English Language": 69,
+        "Basic Science": 71
+      },
+      "total": 194,
+      "average": 64.7,
+      "grade": "B",
+      "rank": 25,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0925",
+      "name": "Halima Musa",
+      "gender": "Female",
+      "dob": "2010-03-13",
+      "scores": {
+        "Mathematics": 35,
+        "English Language": 84,
+        "Basic Science": 68
+      },
+      "total": 187,
+      "average": 62.3,
+      "grade": "B",
+      "rank": 29,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0928",
+      "name": "Uchenna Ibrahim",
+      "gender": "Female",
+      "dob": "2010-06-03",
+      "scores": {
+        "Mathematics": 65,
+        "English Language": 70,
+        "Basic Science": 97
+      },
+      "total": 232,
+      "average": 77.3,
+      "grade": "A",
+      "rank": 5,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0937",
+      "name": "Titi Yusuf",
+      "gender": "Female",
+      "dob": "2013-03-09",
+      "scores": {
+        "Mathematics": 52,
+        "English Language": 66,
+        "Basic Science": 68
+      },
+      "total": 186,
+      "average": 62.0,
+      "grade": "B",
+      "rank": 30,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0941",
+      "name": "Kelechi Badmus",
+      "gender": "Male",
+      "dob": "2013-06-10",
+      "scores": {
+        "Mathematics": 64,
+        "English Language": 63,
+        "Basic Science": 38
+      },
+      "total": 165,
+      "average": 55.0,
+      "grade": "C",
+      "rank": 42,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0968",
+      "name": "Adeola Okafor",
+      "gender": "Female",
+      "dob": "2011-09-02",
+      "scores": {
+        "Mathematics": 82,
+        "English Language": 53,
+        "Basic Science": 90
+      },
+      "total": 225,
+      "average": 75.0,
+      "grade": "A",
+      "rank": 9,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0992",
+      "name": "Ifeanyi Balogun",
+      "gender": "Male",
+      "dob": "2010-10-24",
+      "scores": {
+        "Mathematics": 42,
+        "English Language": 75,
+        "Basic Science": 42
+      },
+      "total": 159,
+      "average": 53.0,
+      "grade": "C",
+      "rank": 43,
+      "status": "Promoted"
+    },
+    {
+      "id": "STU-0997",
+      "name": "Adeola Okonkwo",
+      "gender": "Female",
+      "dob": "2013-02-18",
+      "scores": {
+        "Mathematics": 72,
+        "English Language": 81,
+        "Basic Science": 59
+      },
+      "total": 212,
+      "average": 70.7,
+      "grade": "B",
+      "rank": 14,
+      "status": "Promoted"
+    }
+  ]
+}
