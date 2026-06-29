@@ -25,6 +25,7 @@ def load_file():
        class_data= json.load(file)
 
 def write_file():
+    """Writes data to class file"""
     global folder_path
     with open(folder_path,'w') as f:
         global class_data
@@ -75,7 +76,6 @@ def setup_class():
         class_data= json.dumps(class_enitity)
         f.write(class_data)
 
-
 def add_student():
 
     """Adds student to created or existing json file"""
@@ -110,6 +110,7 @@ def update_marks():
     write_file()
 
 def display_student_result():
+    """Displays selected students results in result format"""
     id = input('Enter Student ID: ')
 
     for student in class_data["students"]:
@@ -148,6 +149,7 @@ Form Teacher: {class_data["form_teacher"]}
         print(f"Student with ID {id} does not exist")
 
 def display_class_result():
+    """Displays class result with rank and name. Yet to figure out how to arrange based on rank"""
     console = Console()
     table = Table()
     table.add_column("Rank")
@@ -199,18 +201,51 @@ def export_data():
         id = input('Input the student\'s ID')
         for student in class_data["students"]:
             if student["id"] == id:
+                with console.capture() as capture:
+                    display_student_result()
+                data = capture.get()
+
                 with open(f"{student["name"]}_Results.txt", "w", encoding="utf-8") as file:
-                    file.write(display_student_result())
+                    file.write(data)
 
         print(f"{student["name"]}_Results.txt exported successfully")
     elif selection == '2':
+        class_label = input('Input class name')
+        term = input('enter term')
+
+        for student in class_data["students"]:
+            if student["id"] == id:
+                with console.capture() as capture:
+                    display_student_result()
+                data = capture.get()
+
+                with open(f"{student["name"]}_Results.txt", "w", encoding="utf-8") as file:
+                    file.write(data)
         pass
     elif selection == '3':
         pass
     else:
         print("Select option 1,2 or 3")
 
+def display_menu():
+    choice = input(f"""
+╔══════════════════════════════════════════════════╗
+║      STUDENT RESULT MANAGEMENT SYSTEM v1.0       ║
+╚══════════════════════════════════════════════════╝
 
+  [1]  Setup Class (Subjects & Max Scores)
+  [2]  Add Student
+  [3]  Enter / Update Marks for a Student
+  [4]  View Student Result Sheet
+  [5]  View Full Class Result Table
+  [6]  View Class Performance Summary
+  [7]  Search Student
+  [8]  Delete Student Record
+  [9]  Export Results
+  [10] Exit
+
+  Select a Choice:
+""")
 
 def init_class():
     """Initializes program"""
@@ -218,7 +253,7 @@ def init_class():
     response = input("Are you loading an existing class(Y) OR setting up a class(N)")
     if response.lower() == 'y':
         load_file()
-        console.print(display_student_result())
+        export_data()
     elif response.lower()== 'n':
         setup_class()
     else:
